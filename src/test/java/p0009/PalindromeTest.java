@@ -1,4 +1,4 @@
-package problems.p009.palindrome;
+package p0009;
 
 import static org.junit.jupiter.api.Assertions.*;
 
