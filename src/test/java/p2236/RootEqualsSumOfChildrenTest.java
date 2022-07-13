@@ -16,7 +16,7 @@ class RootEqualsSumOfChildrenTest {
 	}
 
 	@Test
-	public void test_checkTree_True() {
+	public void test_CheckTree_True() {
 		TreeNode left = new TreeNode(4, null, null);
 		TreeNode right = new TreeNode(6, null, null);
 		TreeNode root = new TreeNode(10, left, right);
@@ -24,7 +24,7 @@ class RootEqualsSumOfChildrenTest {
 	}
 
 	@Test
-	public void test_checkTree_False() {
+	public void test_CheckTree_False() {
 		TreeNode left = new TreeNode(4, null, null);
 		TreeNode right = new TreeNode(6, null, null);
 		TreeNode root = new TreeNode(11, left, right);
