@@ -12,12 +12,7 @@ public class RansomNote1 {
 
 		// Populate the magazineLetters map
 		for(Character letter: magazine.toCharArray()) {
-			final Integer letterCount = magazineLetters.get(letter);
-			if(letterCount == null) {
-				magazineLetters.put(letter, 1);
-			} else {
-				magazineLetters.put(letter, letterCount + 1);
-			}
+			magazineLetters.merge(letter, 1, Integer::sum);
 		}
 
 		// For each letter in the ransom note, check if magazineLetters has enough of that letter

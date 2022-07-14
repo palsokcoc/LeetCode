@@ -2,7 +2,7 @@ package p0009;
 
 public class Palindrome2 {
 	public boolean isPalindrome(int x) {
-		// Negative numbers and numbers endign with 0 except 0 are not palindromes
+		// Negative numbers and numbers ending with 0 except 0 are not palindromes
 		if(x < 0 || (x % 10 == 0 && x != 0)) {
 			return false;
 		}

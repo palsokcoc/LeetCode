@@ -26,7 +26,6 @@ public class InvertBinaryTree {
 			return null;
 		}
 
-		TreeNode result;
 		if (i > values.length / 2) {
 			return new TreeNode(values[i]);
 		} else {
